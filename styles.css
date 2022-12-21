@@ -1,0 +1,56 @@
+body{
+    background-color: #0f153a;
+
+    color: white;
+    font-family: 'Playfair Display', serif;;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 450px;
+
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    padding: 20px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 18px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+a:hover{
+    color: #0f153a;
+
+    background-color: white;
+}
+
+.copyright{
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 70%;
+}
